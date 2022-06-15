@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/deliverysystem/databases/Delivery_System",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:Con"
+    }
+  }
+}
